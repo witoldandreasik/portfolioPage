@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeaderSection from "./layouts/Header/HeaderSection";
+import HeaderSection from "./components/Header/HeaderSection";
 import Container from "./components/Container";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./index.css.js";
@@ -11,8 +11,9 @@ function App() {
     <>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <HeaderSection></HeaderSection>
-        <Container></Container>
+        <Container>
+          <HeaderSection></HeaderSection>
+        </Container>
       </ThemeProvider>
     </>
   );

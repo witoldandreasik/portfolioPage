@@ -1,12 +1,14 @@
 import { createGlobalStyle } from "styled-components";
-import { Normalize } from "styled-normalize";
+// import { Normalize } from "styled-normalize";
 
 export default createGlobalStyle`
-${Normalize}
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-html{
-  box-sizing: border-box;
-  font-family: 'Monserrat', sans-serif;
-}
 
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Monserrat', sans-serif;  
+}
 `;

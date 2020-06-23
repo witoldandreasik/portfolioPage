@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-const Header = styled.header`
-  display: flex;
-`;
+const Header = styled.header``;
 
 export default Header;
