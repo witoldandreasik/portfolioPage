@@ -11,11 +11,6 @@ const StyledBurger = styled.div`
   cursor: pointer;
   margin: 0 auto;
 
-  @media (max-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-  }
   .burger {
     font-size: 2rem;
     color: #000;
@@ -23,8 +18,21 @@ const StyledBurger = styled.div`
   }
   .close {
     font-size: 3rem;
-    color: rgb(100, 21, 255);
+    color: ${({ theme }) => theme.colors.purple.normal};
     transition: 0.3s ease-in-out;
+  }
+  @media (max-width: 480px) {
+    .burger {
+      font-size: 26px;
+    }
+    .close {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
   }
 `;
 export default StyledBurger;

@@ -11,15 +11,31 @@ const Ul = styled.ul`
   }
 
   a {
+    position: relative;
     text-decoration: none;
     color: inherit;
     font-weight: bold;
     font-size: 2rem;
     letter-spacing: 0.09rem;
-    transition: 0.2s linear;
+    transition: color 0.2s linear;
+    overflow: hidden;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      opacity: 0;
+      background-color: #000;
+      transition: 0.2s linear;
+    }
+    &:hover::after {
+      opacity: 1;
+      background-color: ${({ theme }) => theme.colors.purple.normal};
+    }
     &:hover {
       color: ${({ theme }) => theme.colors.purple.normal};
-      box-shadow: 0 2px 0 0 rgb(100, 21, 255);
     }
   }
 
@@ -38,6 +54,19 @@ const Ul = styled.ul`
     justify-content: center;
     li {
       color: white;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    a {
+      font-size: 1.6rem;
+    }
+  }
+  @media (min-width: 1921px) {
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    a {
+      font-size: 3.5rem;
     }
   }
 `;
