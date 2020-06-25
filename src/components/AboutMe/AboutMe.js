@@ -7,7 +7,10 @@ function AboutMe() {
     <StyledAboutMe>
       <div className="me-image">
         <picture>
-          <img src={require("../../utils/problems.png")} alt="IT desk" />
+          <img
+            src={require("../../utils/problems.png")}
+            alt="problem resolving process"
+          />
         </picture>
       </div>
       <div className="me-info">

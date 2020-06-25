@@ -7,6 +7,11 @@ const HeaderStyledComponent = styled.section`
     width: 100%;
     height: 160px;
   }
+  @media (max-width: 319px) {
+    .divider {
+      display: none;
+    }
+  }
 `;
 
 export default HeaderStyledComponent;

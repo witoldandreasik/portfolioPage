@@ -17,20 +17,12 @@ const Nav = styled.nav`
   }
 
   @media (max-width: 319px) {
-    .logo {
-      display: none;
+    .logo picture img {
+      max-width: 80%;
+      max-height: 80%;
     }
   }
-  @media (max-width: 480px) {
-    a {
-      font-size: 1.8rem;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    a {
-      font-size: 2.1rem;
-    }
-  }
+
   @media (min-width: 1921px) {
     height: 90px;
     a {
