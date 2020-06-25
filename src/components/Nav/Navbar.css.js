@@ -1,31 +1,23 @@
 import styled from "styled-components";
 
 const Nav = styled.nav`
-  width: 100vw;
-  height: 55px;
+  width: 100%;
+  height: 95px;
   border-bottom: 2px solid ${({ theme }) => theme.colors.purple.normal};
-  padding: 0 20px;
+  padding: 0 55px;
   display: flex;
   justify-content: space-between;
   position: fixed;
+  background-color: #fff;
 
   .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
-    font-size: 50px;
-    a {
-      text-decoration: none;
-      color: inherit;
-      transition: color 0.2s linear;
-      &:hover {
-        color: ${({ theme }) => theme.colors.purple.normal};
-      }
-    }
   }
-  @media (max-width: 320px) {
-    a {
+
+  @media (max-width: 319px) {
+    .logo {
       display: none;
     }
   }
@@ -36,7 +28,7 @@ const Nav = styled.nav`
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     a {
-      font-size: 2.3rem;
+      font-size: 2.1rem;
     }
   }
   @media (min-width: 1921px) {

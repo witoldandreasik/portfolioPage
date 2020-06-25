@@ -6,7 +6,11 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        <a href="#">Witold Andreasik</a>
+        <a href="#">
+          <picture>
+            <img src={require("../../utils/logo.png")} alt="me" />
+          </picture>
+        </a>
       </div>
       <Burger />
     </Nav>

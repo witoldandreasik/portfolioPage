@@ -6,8 +6,10 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
 
   li {
-    padding: 0 10px;
-    line-height: 55px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   a {
@@ -18,7 +20,7 @@ const Ul = styled.ul`
     font-size: 2rem;
     letter-spacing: 0.09rem;
     transition: color 0.2s linear;
-    overflow: hidden;
+
     &::after {
       content: "";
       position: absolute;
@@ -48,7 +50,6 @@ const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width: 100%;
-    // padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     align-items: center;
     justify-content: center;
@@ -56,7 +57,12 @@ const Ul = styled.ul`
       color: white;
     }
   }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 769px) and (max-width: 1023px) {
+    a {
+      font-size: 1.18rem;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1439px) {
     a {
       font-size: 1.6rem;
     }

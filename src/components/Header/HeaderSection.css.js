@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 const HeaderStyledComponent = styled.section`
-  display: block;
   width: 100%;
-  min-height: 20vh;
+  min-height: 95px;
+  .divider {
+    width: 100%;
+    height: 160px;
+  }
 `;
 
 export default HeaderStyledComponent;

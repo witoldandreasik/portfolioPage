@@ -5,16 +5,16 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <a href="#">Me</a>
+        <a href="#">O mnie</a>
       </li>
       <li>
-        <a href="#">Skills</a>
+        <a href="#">Umiejętności</a>
       </li>
       <li>
-        <a href="#">Projects</a>
+        <a href="#">Projekty</a>
       </li>
       <li>
-        <a href="#">Contact</a>
+        <a href="#">Kontakt</a>
       </li>
     </Ul>
   );
