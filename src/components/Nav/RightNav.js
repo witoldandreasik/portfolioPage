@@ -5,7 +5,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <a href="#">O mnie</a>
+        <a href=".me-info">O mnie</a>
       </li>
       <li>
         <a href="#">Umiejętności</a>

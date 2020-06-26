@@ -30,10 +30,12 @@ const Ul = styled.ul`
       height: 2px;
       opacity: 0;
       background-color: #000;
+      transform: scale(0);
       transition: 0.2s linear;
     }
     &:hover::after {
       opacity: 1;
+      transform: scale(1);
       background-color: ${({ theme }) => theme.colors.purple.normal};
     }
     &:hover {
