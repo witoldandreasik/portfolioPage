@@ -5,7 +5,7 @@ import StyledAboutMe from "./AboutMe.css";
 function AboutMe() {
   return (
     <StyledAboutMe>
-      <div className="me-image">
+      <div id="me-image">
         <picture>
           <img
             src={require("../../utils/problems.png")}
@@ -13,7 +13,7 @@ function AboutMe() {
           />
         </picture>
       </div>
-      <div className="me-info">
+      <div id="me-info">
         <h1>O mnie</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores

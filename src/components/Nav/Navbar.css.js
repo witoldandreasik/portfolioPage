@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Nav = styled.nav`
   width: 100%;
-  height: 95px;
+  height: 85px;
   border-bottom: 2px solid ${({ theme }) => theme.colors.purple.normal};
   padding: 0 55px;
   display: flex;

@@ -1,16 +1,18 @@
 import React from "react";
 import Ul from "./RightNav.css";
+import Scrollchor from "react-scrollchor";
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, setOpen }) => {
   return (
     <Ul open={open}>
       <li>
-        <a href=".me-info">O mnie</a>
+        <Scrollchor to="#me-image">O mnie</Scrollchor>
       </li>
       <li>
-        <a href="#">Umiejętności</a>
+        <Scrollchor to="#skills">Umiejętności</Scrollchor>
       </li>
       <li>
+        {/* use scrollochor ^ */}
         <a href="#">Projekty</a>
       </li>
       <li>

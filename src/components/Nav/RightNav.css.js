@@ -21,6 +21,9 @@ const Ul = styled.ul`
     letter-spacing: 0.09rem;
     transition: color 0.2s linear;
 
+    .active {
+      color: ${({ theme }) => theme.colors.purple.normal};
+    }
     &::after {
       content: "";
       position: absolute;

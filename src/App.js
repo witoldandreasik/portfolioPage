@@ -8,6 +8,7 @@ import GlobalStyles from "./index.css.js";
 import theme from "./utils/theme";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
+
 function App() {
   return (
     <>

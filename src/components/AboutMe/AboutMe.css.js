@@ -10,13 +10,13 @@ const StyledAboutMe = styled.section`
   text-justify: inter-word;
   h1 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
-  .me-info {
+  #me-info {
     flex: 3;
     font-size: 1.5rem;
   }
-  .me-image {
+  #me-image {
     flex: 2;
 
     img {
@@ -25,17 +25,18 @@ const StyledAboutMe = styled.section`
       height: 100%;
     }
   }
-  .me-info {
+  #me-info {
     font-size: 20px;
     padding: 40px;
   }
   @media (max-width: 319px) {
     flex-flow: column nowrap;
-    .me-info {
+    #me-info {
+      padding: 0;
       text-align: center;
       font-size: 0.7rem;
     }
-    .me-image {
+    #me-image {
       flex: 2;
       img {
         padding-top: 0;
@@ -44,7 +45,7 @@ const StyledAboutMe = styled.section`
   }
   @media (min-width: 320px) and (max-width: 480px) {
     flex-flow: column nowrap;
-    .me-info {
+    #me-info {
       text-align: center;
       font-size: 0.95rem;
       padding: 3px 15px;
@@ -52,7 +53,7 @@ const StyledAboutMe = styled.section`
       text-align: justify;
       text-justify: inter-word;
     }
-    .me-image {
+    #me-image {
       flex: 2;
       img {
         padding-top: 0;
@@ -62,7 +63,7 @@ const StyledAboutMe = styled.section`
   @media (min-width: 481px) and (max-width: 768px) {
     flex-flow: column nowrap;
 
-    .me-info {
+    #me-info {
       text-align: center;
       font-size: 1.4rem;
       padding: 20px 10px;
@@ -70,7 +71,7 @@ const StyledAboutMe = styled.section`
       text-align: justify;
       text-justify: inter-word;
     }
-    .me-image {
+    #me-image {
       flex: 2;
       img {
         padding-top: 0;
