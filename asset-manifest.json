@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/portfolioPage/static/js/main.7bcc8a1f.chunk.js",
+    "main.js.map": "/portfolioPage/static/js/main.7bcc8a1f.chunk.js.map",
+    "runtime-main.js": "/portfolioPage/static/js/runtime-main.674d379f.js",
+    "runtime-main.js.map": "/portfolioPage/static/js/runtime-main.674d379f.js.map",
+    "static/js/2.0cf9d9e2.chunk.js": "/portfolioPage/static/js/2.0cf9d9e2.chunk.js",
+    "static/js/2.0cf9d9e2.chunk.js.map": "/portfolioPage/static/js/2.0cf9d9e2.chunk.js.map",
+    "index.html": "/portfolioPage/index.html",
+    "precache-manifest.108ecc449ae3d197e1cadf2b007299da.js": "/portfolioPage/precache-manifest.108ecc449ae3d197e1cadf2b007299da.js",
+    "service-worker.js": "/portfolioPage/service-worker.js",
+    "static/js/2.0cf9d9e2.chunk.js.LICENSE.txt": "/portfolioPage/static/js/2.0cf9d9e2.chunk.js.LICENSE.txt",
+    "static/media/problems.png": "/portfolioPage/static/media/problems.5821219d.png",
+    "static/media/redux-icon.png": "/portfolioPage/static/media/redux-icon.ad6ef14b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.674d379f.js",
+    "static/js/2.0cf9d9e2.chunk.js",
+    "static/js/main.7bcc8a1f.chunk.js"
+  ]
+}
