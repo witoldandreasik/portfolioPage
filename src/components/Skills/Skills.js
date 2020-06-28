@@ -17,7 +17,7 @@ function Skills() {
               <span>CSS3</span>
             </em>
             <em className="devicon-javascript-plain">
-              <span>JavaScript i ES6</span>
+              <span>JS i ES6</span>
             </em>
             <em className="devicon-react-original">
               <span>React</span>
@@ -29,7 +29,7 @@ function Skills() {
               <span>Bootstrap</span>
             </em>
             <em className="devicon-mysql-plain">
-              <span>MySQL i MSSQL</span>
+              <span>MySQL/MSSQL</span>
             </em>
             <em className="devicon-webpack-plain">
               <span>Webpack</span>

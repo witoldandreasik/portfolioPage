@@ -22,17 +22,13 @@ const StyledSkills = styled.section`
       flex-flow: column;
       flex: 2;
       h3 {
-        padding-left: 67px;
+        padding-left: 19px;
       }
       .skills-hard-icons {
-        width: 100%;
-        height: 100%;
-        padding: 0 50px;
-
         em {
           display: flex;
-          //   align-items: center;
-          //   justify-content: center;
+          // align-items: center;
+          // justify-content: center;
           padding: 7px 20px;
 
           span {
@@ -53,11 +49,11 @@ const StyledSkills = styled.section`
       flex-flow: column;
       flex: 2;
       h3 {
-        padding-left: 120px;
+        padding-left: 5px;
       }
       em {
         display: flex;
-        padding: 7px 120px;
+        padding: 7px 5px;
         text-align: center;
         span {
           text-align: center;
@@ -85,6 +81,103 @@ const StyledSkills = styled.section`
   }
   .purple {
     color: ${({ theme }) => theme.colors.purple.normal};
+  }
+  @media (max-width: 319px) {
+    padding: 0;
+    #skills {
+      padding: 0 auto;
+      font-size: 1.7rem;
+    }
+
+    .skills-hard-icons {
+    }
+    .hard-soft {
+      // width: 100%;
+      flex-flow: row nowrap;
+      font-size: 0.7rem;
+    }
+    .learning {
+      font-size: 0.7rem;
+      img {
+        display: none;
+      }
+    }
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 0;
+    #skills {
+      font-size: 2rem;
+    }
+    .hard-soft {
+      font-size: 0.95rem;
+      .soft {
+        text-align: center;
+      }
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+    .learning {
+      font-size: 0.95rem;
+      img {
+        display: none;
+      }
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    #skills {
+      font-size: 2.5rem;
+    }
+    .hard-soft {
+      font-size: 1.4rem;
+      .soft {
+        text-align: center;
+      }
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+    .learning {
+      font-size: 1.4rem;
+      img {
+        display: none;
+      }
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    #skills {
+      font-size: 2.5rem;
+    }
+    .hard-soft {
+      font-size: 1.4rem;
+      .soft {
+      }
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+    .learning {
+      font-size: 1.4rem;
+      img {
+        display: none;
+      }
+    }
+  }
+  @media (min-width: 1921px) {
+    #skills {
+      font-size: 3.5rem;
+    }
+    .hard-soft {
+      font-size: 2rem;
+      .soft {
+      }
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
+    .learning {
+      font-size: 2rem;
+    }
   }
 `;
 
