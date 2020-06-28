@@ -14,7 +14,7 @@ function AboutMe() {
         </picture>
       </div>
       <div id="me-info">
-        <h1>O mnie</h1>
+        <h2>O mnie</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
           quibusdam repellat facilis ipsa. Consequatur molestias laboriosam

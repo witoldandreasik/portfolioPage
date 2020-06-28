@@ -13,6 +13,10 @@ const StyledAboutMe = styled.section`
     padding-bottom: 15px;
   }
   #me-info {
+    h2 {
+      text-align: center;
+      padding: 50px;
+    }
     flex: 3;
     font-size: 1.5rem;
   }
@@ -32,6 +36,9 @@ const StyledAboutMe = styled.section`
   @media (max-width: 319px) {
     flex-flow: column nowrap;
     #me-info {
+      h2 {
+        font-size: 1.7rem;
+      }
       padding: 0;
       text-align: center;
       font-size: 0.7rem;
@@ -46,6 +53,9 @@ const StyledAboutMe = styled.section`
   @media (min-width: 320px) and (max-width: 480px) {
     flex-flow: column nowrap;
     #me-info {
+      h2 {
+        font-size: 2rem;
+      }
       text-align: center;
       font-size: 0.95rem;
       padding: 3px 15px;
@@ -64,6 +74,9 @@ const StyledAboutMe = styled.section`
     flex-flow: column nowrap;
 
     #me-info {
+      h2 {
+        font-size: 2.5rem;
+      }
       text-align: center;
       font-size: 1.4rem;
       padding: 20px 10px;
@@ -76,6 +89,14 @@ const StyledAboutMe = styled.section`
       img {
         padding-top: 0;
       }
+    }
+  }
+  @media (min-width: 1921px) {
+    #me-info {
+      h2 {
+        font-size: 3.5rem;
+      }
+      font-size: 2rem;
     }
   }
 `;
