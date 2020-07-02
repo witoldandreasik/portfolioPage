@@ -12,14 +12,14 @@ function Pomodoro() {
             <ul>
               <li>
                 <a
-                  href="https://witoldandreasik.github.io/budget-app/"
+                  href="https://witoldandreasik.github.io/pomodoro-counter/"
                   rel="noreferrer noopener"
                   target="_blank"
                 >
                   Live
                 </a>
                 <a
-                  href="https://github.com/witoldandreasik/budget-app"
+                  href="https://github.com/witoldandreasik/pomodoro-counter"
                   rel="noreferrer noopener"
                   target="_blank"
                 >
