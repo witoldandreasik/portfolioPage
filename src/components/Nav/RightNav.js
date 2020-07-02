@@ -13,7 +13,7 @@ const RightNav = ({ open, setOpen }) => {
       </li>
       <li>
         {/* use scrollochor ^ */}
-        <a href="#">Projekty</a>
+        <Scrollchor to="#projects">Umiejętności</Scrollchor>
       </li>
       <li>
         <a href="#">Kontakt</a>

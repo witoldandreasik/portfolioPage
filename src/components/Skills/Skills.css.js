@@ -4,7 +4,7 @@ const StyledSkills = styled.section`
   display: flex;
   width: 100%;
   padding: 40px;
-  font-size: 30px;
+  font-size: 1.5rem;
   align-items: center;
   justify-content: center;
   flex-flow: wrap;
@@ -26,6 +26,7 @@ const StyledSkills = styled.section`
       }
       .skills-hard-icons {
         em {
+          // justify-content: flex-end;
           display: flex;
           // align-items: center;
           // justify-content: center;
@@ -52,6 +53,7 @@ const StyledSkills = styled.section`
         padding-left: 5px;
       }
       em {
+        // justify-content: flex-end;
         display: flex;
         padding: 7px 5px;
         text-align: center;
