@@ -9,7 +9,6 @@ function Portfolio() {
       <div className="portfolio-wrapper">
         <div className="portfolio-info">
           <div className="Title-links">
-            <h3>This portfolio page</h3>
             <ul>
               <li>
                 <a
@@ -28,6 +27,7 @@ function Portfolio() {
                 </a>
               </li>
             </ul>
+            <h3>This portfolio page</h3>
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quis

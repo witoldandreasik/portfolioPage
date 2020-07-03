@@ -8,7 +8,6 @@ function Pomodoro() {
       <div className="pomodoro-wrapper">
         <div className="pomodoro-info">
           <div className="Title-links">
-            <h3>Pomodoro Counter</h3>
             <ul>
               <li>
                 <a
@@ -27,6 +26,7 @@ function Pomodoro() {
                 </a>
               </li>
             </ul>
+            <h3>Pomodoro Counter</h3>
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quis
