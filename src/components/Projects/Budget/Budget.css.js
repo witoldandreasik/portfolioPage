@@ -30,18 +30,15 @@ const StyledBudget = styled.div`
         display: flex;
         font-size: 1.5rem;
         align-items: center;
-        ul {
+
+        a {
           list-style: none;
-          li {
-            a {
-              padding: 5px;
-              text-decoration: none;
-              font-weight: bold;
-              color: ${({ theme }) => theme.colors.purple.normal};
-              &:hover {
-                color: ${({ theme }) => theme.colors.purple.dark};
-              }
-            }
+          padding: 5px;
+          text-decoration: none;
+          font-weight: bold;
+          color: ${({ theme }) => theme.colors.purple.normal};
+          &:hover {
+            color: ${({ theme }) => theme.colors.purple.dark};
           }
         }
       }
@@ -71,8 +68,8 @@ const StyledBudget = styled.div`
     .budget-wrapper {
       flex-basis: 100%;
       img {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
       }
       p {
         font-size: 0.95rem;
@@ -86,7 +83,7 @@ const StyledBudget = styled.div`
       }
     }
   }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 480px) and (max-width: 1023px) {
     padding: 0 auto;
     .budget-wrapper {
       flex-basis: 100%;

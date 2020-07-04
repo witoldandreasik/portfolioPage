@@ -70,8 +70,8 @@ const StyledWeather = styled.div`
     .weather-wrapper {
       flex-basis: 100%;
       img {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
       }
       p {
         font-size: 0.95rem;
@@ -85,7 +85,8 @@ const StyledWeather = styled.div`
       }
     }
   }
-  @media (min-width: 768px) and (max-width: 1023px) {
+
+  @media (min-width: 480px) and (max-width: 1023px) {
     padding: 0 auto;
     .weather-wrapper {
       flex-basis: 100%;

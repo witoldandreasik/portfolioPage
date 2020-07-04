@@ -10,24 +10,14 @@ function Budget() {
         <div className="budget-info">
           <div className="Title-links">
             <h3>Budget app</h3>
-            <ul>
-              <li>
-                <a
-                  href="https://witoldandreasik.github.io/budget-app/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  Live
-                </a>
-                <a
-                  href="https://github.com/witoldandreasik/budget-app"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  GitHub
-                </a>
-              </li>
-            </ul>
+
+            <a
+              href="https://github.com/witoldandreasik/budget-app"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus

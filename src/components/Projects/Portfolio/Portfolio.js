@@ -5,7 +5,6 @@ import StyledPortfolio from "./Portfolio.css";
 function Portfolio() {
   return (
     <StyledPortfolio>
-      {" "}
       <div className="portfolio-wrapper">
         <div className="portfolio-info">
           <div className="Title-links">
@@ -27,7 +26,7 @@ function Portfolio() {
                 </a>
               </li>
             </ul>
-            <h3>This portfolio page</h3>
+            <h3>Portfolio page</h3>
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quis

@@ -78,8 +78,8 @@ const StyledPomodoro = styled.div`
       padding-left: 0;
       padding-right: 15%;
       img {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
       }
       p {
         font-size: 0.95rem;
@@ -93,7 +93,28 @@ const StyledPomodoro = styled.div`
       }
     }
   }
-  @media (min-width: 768px) and (max-width: 1023px) {
+  /* @media (min-width: 480px) and (max-width: 767px) {
+    padding: 0 auto;
+    .pomodoro-wrapper {
+      padding-left: 0;
+      flex-basis: 100%;
+      img {
+        width: 55%;
+        height: 55%;
+      }
+      p {
+        font-size: 1.4rem;
+        padding-bottom: 50px;
+      }
+      .pomodoro-info {
+        .Title-links {
+          padding-bottom: 4px;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  } */
+  @media (min-width: 480px) and (max-width: 1023px) {
     padding: 0 auto;
     .pomodoro-wrapper {
       flex-basis: 100%;
