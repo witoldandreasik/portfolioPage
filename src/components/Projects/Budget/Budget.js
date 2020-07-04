@@ -1,11 +1,15 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import StyledBudget from "./Budget.css";
 
 function Budget() {
+  useEffect(() => {
+    Aos.init({ duration: 500, easing: "ease-in-out" });
+  }, []);
   return (
     <StyledBudget>
-      <div className="budget-wrapper">
+      <div data-aos="fade-right" className="budget-wrapper">
         <img src={require("../../../utils/savings.png")} alt="savings" />
         <div className="budget-info">
           <div className="Title-links">

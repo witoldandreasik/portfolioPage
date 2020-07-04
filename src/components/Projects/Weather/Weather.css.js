@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 const StyledWeather = styled.div`
   display: flex;
-  padding: 0;
+
   justify-items: center;
   align-items: center;
   text-align: justify;
   text-justify: inter-word;
-
+  padding: 10px;
   font-size: 1.5rem;
+
   .weather-wrapper {
     display: flex;
     align-items: center;
@@ -70,7 +71,7 @@ const StyledWeather = styled.div`
     .weather-wrapper {
       flex-basis: 100%;
       img {
-        width: 50%;
+        width: 40%;
         height: 50%;
       }
       p {

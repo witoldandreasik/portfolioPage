@@ -1,11 +1,15 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import StyledPortfolio from "./Portfolio.css";
 
 function Portfolio() {
+  useEffect(() => {
+    Aos.init({ duration: 500, easing: "ease-in-out" });
+  }, []);
   return (
     <StyledPortfolio>
-      <div className="portfolio-wrapper">
+      <div data-aos="fade-left" className="portfolio-wrapper">
         <div className="portfolio-info">
           <div className="Title-links">
             <ul>

@@ -7,6 +7,7 @@ const StyledProjects = styled.section`
   padding: 50px;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   #projects {
     font-size: 2rem;
     padding-bottom: 50px;

@@ -8,8 +8,8 @@ const StyledBudget = styled.div`
   text-align: justify;
   text-justify: inter-word;
   padding: 10px;
-
   font-size: 1.5rem;
+
   .budget-wrapper {
     display: flex;
     align-items: center;

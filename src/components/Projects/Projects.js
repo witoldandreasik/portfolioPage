@@ -10,7 +10,7 @@ function Projects() {
   return (
     <StyledProjects>
       <h2 id="projects">Projekty</h2>
-      <Budget />
+      <Budget></Budget>
       <Pomodoro />
       <Weather />
       <Portfolio />

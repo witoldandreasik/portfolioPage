@@ -1,12 +1,16 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import StyledWeather from "./Weather.css";
 
 function Weather() {
+  useEffect(() => {
+    Aos.init({ duration: 500, easing: "ease-in-out" });
+  }, []);
   return (
     <StyledWeather>
       {" "}
-      <div className="weather-wrapper">
+      <div data-aos="fade-right" className="weather-wrapper">
         <img src={require("../../../utils/weather.png")} alt="weather" />
         <div className="weather-info">
           <div className="Title-links">

@@ -1,11 +1,15 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import StyledPomodoro from "./Pomodoro.css";
 
 function Pomodoro() {
+  useEffect(() => {
+    Aos.init({ duration: 500, easing: "ease-in-out" });
+  }, []);
   return (
     <StyledPomodoro>
-      <div className="pomodoro-wrapper">
+      <div data-aos="fade-left" className="pomodoro-wrapper">
         <div className="pomodoro-info">
           <div className="Title-links">
             <ul>
