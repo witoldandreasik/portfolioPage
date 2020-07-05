@@ -3,6 +3,7 @@ import React, { Suspense } from "react";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./index.css.js";
 import theme from "./utils/theme";
+import LoadingIndicator from "./components/LoadingIndicator/LoadingIndicator";
 
 const HeaderSection = React.lazy(() =>
   import("./components/Header/HeaderSection")
@@ -17,8 +18,7 @@ function App() {
     <>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        {/* add loading indicator component in future*/}
-        <Suspense fallback={<div>loading...</div>}>
+        <Suspense fallback={<LoadingIndicator />}>
           <Container>
             <HeaderSection />
             <AboutMe />
