@@ -5,7 +5,7 @@ import StyledPortfolio from "./Portfolio.css";
 
 function Portfolio() {
   useEffect(() => {
-    Aos.init({ duration: 500, easing: "ease-in-out" });
+    Aos.init({ duration: 600, easing: "ease-in-out" });
   }, []);
   return (
     <StyledPortfolio>
