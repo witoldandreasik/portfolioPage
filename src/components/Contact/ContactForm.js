@@ -17,12 +17,6 @@ function Contact() {
       );
   }
   const required = (value) => (value ? undefined : "To pole jest wymagane.");
-
-  //   const composeValidators = (...validators) => (value) =>
-  //     validators.reduce(
-  //       (error, validator) => error || validator(value),
-  //       undefined
-  //     );
   return (
     <StyledContactForm>
       <Form
@@ -76,23 +70,31 @@ function Contact() {
             </div>
             <div className="contact-icons">
               <a
-                href="https://www.linkedin.com/in/witold-andreasik-21bb421aa/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <em className="fab fa-github"></em>
-              </a>
-              <em className="fas fa-envelope">
-                <span>witoldandreasik@gmail.com</span>
-              </em>
-              <a
                 href="https://github.com/witoldandreasik"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
+                <em className="fab fa-github"></em>
+              </a>{" "}
+              <a
+                href="https://www.linkedin.com/in/witold-andreasik-21bb421aa/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <em className="fab fa-linkedin"></em>
               </a>
+              <a
+                href="https://drive.google.com/file/d/1vCF26wo_N2IF1mV4RmE9KQFhMXq8TTy5/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <em className="fas fa-file-pdf">
+                  <span>CV</span>
+                </em>
+              </a>
+              <em className="fas fa-envelope">
+                <span>witoldandreasik@gmail.com</span>
+              </em>
             </div>
           </form>
         )}

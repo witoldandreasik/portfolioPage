@@ -6,6 +6,7 @@ const StyledContact = styled.div`
   justify-content: center;
   padding: 50px;
   font-size: 1.5rem;
+  border-bottom: 1px solid white;
   .contact-icons {
     a em {
       text-decoration: none;
