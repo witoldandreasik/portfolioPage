@@ -6,14 +6,12 @@ function Navbar() {
   return (
     <Nav>
       <div className="logo">
-        <a href="#">
-          <picture>
-            <img
-              src={require("../../utils/logo.png")}
-              alt="my logo in navigation bar"
-            />
-          </picture>
-        </a>
+        <picture>
+          <img
+            src={require("../../utils/logo.png")}
+            alt="my logo in navigation bar"
+          />
+        </picture>
       </div>
       <Burger />
     </Nav>

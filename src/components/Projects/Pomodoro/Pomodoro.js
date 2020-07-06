@@ -5,7 +5,7 @@ import StyledPomodoro from "./Pomodoro.css";
 
 function Pomodoro() {
   useEffect(() => {
-    Aos.init({ duration: 600, easing: "ease-in-out" });
+    Aos.init({ duration: 500, easing: "ease-in-out" });
   }, []);
   return (
     <StyledPomodoro>

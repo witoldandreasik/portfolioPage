@@ -20,7 +20,6 @@ const Ul = styled.ul`
     font-size: 2rem;
     letter-spacing: 0.09rem;
     transition: color 0.2s linear;
-
     .active {
       color: ${({ theme }) => theme.colors.purple.normal};
     }
@@ -31,13 +30,11 @@ const Ul = styled.ul`
       left: 0;
       width: 100%;
       height: 2px;
-      opacity: 0;
       background-color: #000;
       transform: scale(0);
       transition: 0.2s linear;
     }
     &:hover::after {
-      opacity: 1;
       transform: scale(1);
       background-color: ${({ theme }) => theme.colors.purple.normal};
     }
@@ -54,7 +51,7 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    width: 75%;
     transition: transform 0.3s ease-in-out;
     align-items: center;
     justify-content: center;

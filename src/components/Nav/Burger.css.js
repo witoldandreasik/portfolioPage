@@ -21,7 +21,7 @@ const StyledBurger = styled.div`
     color: ${({ theme }) => theme.colors.purple.normal};
     transition: 0.3s ease-in-out;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .burger {
       font-size: 26px;
     }

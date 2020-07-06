@@ -88,7 +88,7 @@ function Skills() {
       <div className="learning">
         <h3>Uczę się: </h3>
         <p>
-          Oczywistym jest, iż wciąż <span className="purple">rozwijam </span>
+          Oczywiście wciąż <span className="purple">rozwijam </span>
           wszystkie moje umiejętności zarówno miękkie jak i twarde, ponadto
           poznaję{" "}
           <span className="purple redux-text">

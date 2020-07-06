@@ -8,7 +8,7 @@ function Footer() {
     <StyledFooter>
       <h2 id="contact">Kontakt</h2>
       <ContactForm />
-      <hr />
+
       <p>Witold Andreasik © 2020</p>
     </StyledFooter>
   );

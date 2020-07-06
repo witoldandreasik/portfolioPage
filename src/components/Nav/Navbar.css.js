@@ -10,6 +10,7 @@ const Nav = styled.nav`
   position: fixed;
   background-color: #fff;
   z-index: 2;
+  overflow: hidden;
   .logo {
     display: flex;
     align-items: center;
@@ -25,9 +26,8 @@ const Nav = styled.nav`
 
   @media (min-width: 1921px) {
     height: 90px;
-    a {
-      font-size: 5.3rem;
-    }
+
+    font-size: 5.3rem;
   }
 `;
 export default Nav;

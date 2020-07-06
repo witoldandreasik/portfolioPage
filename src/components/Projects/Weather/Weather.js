@@ -5,7 +5,7 @@ import StyledWeather from "./Weather.css";
 
 function Weather() {
   useEffect(() => {
-    Aos.init({ duration: 600, easing: "ease-in-out" });
+    Aos.init({ duration: 500, easing: "ease-in-out" });
   }, []);
   return (
     <StyledWeather>

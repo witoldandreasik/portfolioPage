@@ -50,7 +50,7 @@ const StyledAboutMe = styled.section`
       }
     }
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 479px) {
     flex-flow: column nowrap;
     #me-info {
       h2 {
@@ -70,7 +70,7 @@ const StyledAboutMe = styled.section`
       }
     }
   }
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (min-width: 480px) and (max-width: 768px) {
     flex-flow: column nowrap;
 
     #me-info {

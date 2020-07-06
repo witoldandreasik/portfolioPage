@@ -105,7 +105,7 @@ const StyledSkills = styled.section`
       }
     }
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 479px) {
     padding: 0;
     #skills {
       font-size: 2rem;
@@ -126,7 +126,7 @@ const StyledSkills = styled.section`
       }
     }
   }
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (min-width: 480px) and (max-width: 767px) {
     #skills {
       font-size: 2.5rem;
     }
@@ -146,7 +146,7 @@ const StyledSkills = styled.section`
       }
     }
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     #skills {
       font-size: 2.5rem;
     }
