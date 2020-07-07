@@ -24,10 +24,14 @@ function Budget() {
             </a>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            neque voluptatem odit, qui perspiciatis dolor deserunt error
-            consequuntur sed eum, dolorem incidunt est ducimus quae delectus
-            dignissimos eos, inventore veritatis.
+            Projekt aplikacji do kontrolowania wydatków nad którym spędziłem
+            bardzo dużo czasu. Tutaj pierwszy raz spotkałem się z reduxem co
+            było dla mnie sporym wyzwaniem. Tworzenie tej aplikacji nauczyło
+            mnie rozwiązywać złożone problemy jakie spotykałem na swojej drodze.
+            <span className="technologies">
+              {" "}
+              (React, redux, React-router, styled-components)
+            </span>
           </p>
         </div>
       </div>

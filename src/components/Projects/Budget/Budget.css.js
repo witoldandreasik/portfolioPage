@@ -22,6 +22,9 @@ const StyledBudget = styled.div`
       font-size: 1.4rem;
       padding-bottom: 100px;
     }
+    .technologies {
+      color: ${({ theme }) => theme.colors.purple.normal};
+    }
     .budget-info {
       display: flex;
       flex-direction: column;

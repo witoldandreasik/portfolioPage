@@ -84,7 +84,7 @@ function Contact() {
                 <em className="fab fa-linkedin"></em>
               </a>
               <a
-                href="https://drive.google.com/file/d/1vCF26wo_N2IF1mV4RmE9KQFhMXq8TTy5/view?usp=sharing"
+                href="https://drive.google.com/file/d/16KB4wNfSgLycw774KNNPOXgrfjD0WEv0/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -35,10 +35,9 @@ function Weather() {
             </ul>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque
-            veritatis alias! Iusto inventore vitae dolor nesciunt qui libero
-            officiis soluta facilis harum debitis hic, sit ex optio
-            exercitationem illo!
+            Aplikacja, a w zasadzie dwie aplikacje w wersji state i hooks, które
+            sprawdzają pogodę w podanym mieście. Używają one zewnętrznego API.{" "}
+            <span className="technologies">(React, API)</span>
           </p>
         </div>
       </div>

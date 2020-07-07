@@ -21,6 +21,9 @@ const StyledWeather = styled.div`
     p {
       font-size: 1.4rem;
       padding-bottom: 100px;
+      .technologies {
+        color: ${({ theme }) => theme.colors.purple.normal};
+      }
     }
     .weather-info {
       display: flex;

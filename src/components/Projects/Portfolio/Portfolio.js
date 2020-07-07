@@ -33,10 +33,10 @@ function Portfolio() {
             <h3>Portfolio page</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quis
-            aspernatur, ipsam perspiciatis omnis nisi, sit culpa dolor eos
-            beatae eius nobis est dolorem repudiandae possimus veritatis eaque
-            minima fugiat.
+            Pierwsza strona internetowa typu landing page robiona w całości
+            przeze mnie. Nauczyła mnie radzenia sobie z problemami i szukania
+            informacji na znacznie wyższym poziomie niż wcześniej.{" "}
+            <span className="technologies">(React, styled-components)</span>
           </p>
         </div>
         <img

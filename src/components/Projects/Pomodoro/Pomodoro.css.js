@@ -24,6 +24,9 @@ const StyledPomodoro = styled.div`
     p {
       font-size: 1.4rem;
       padding-bottom: 100px;
+      .technologies {
+        color: ${({ theme }) => theme.colors.purple.normal};
+      }
     }
     .pomodoro-info {
       display: flex;
@@ -93,8 +96,7 @@ const StyledPomodoro = styled.div`
       }
     }
   }
-  /* @media (min-width: 480px) and (max-width: 767px) {
-    padding: 0 auto;
+  @media (min-width: 480px) and (max-width: 767px) {
     .pomodoro-wrapper {
       padding-left: 0;
       flex-basis: 100%;
@@ -113,23 +115,18 @@ const StyledPomodoro = styled.div`
         }
       }
     }
-  } */
+  }
   @media (min-width: 480px) and (max-width: 1023px) {
-    padding: 0 auto;
     .pomodoro-wrapper {
-      flex-basis: 100%;
-      padding-left: 0;
       img {
         width: 40%;
         height: 40%;
       }
       p {
         font-size: 1.3rem;
-        padding-bottom: 50px;
       }
       .pomodoro-info {
         .Title-links {
-          padding-bottom: 4px;
           font-size: 1.3rem;
         }
       }

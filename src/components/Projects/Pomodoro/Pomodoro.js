@@ -33,10 +33,9 @@ function Pomodoro() {
             <h3>Pomodoro Counter</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quis
-            aspernatur, ipsam perspiciatis omnis nisi, sit culpa dolor eos
-            beatae eius nobis est dolorem repudiandae possimus veritatis eaque
-            minima fugiat.
+            Prosta aplikacja Pomodoro wzbogacona o przyciski dzięki którym można
+            ustawić czas według własnych upodobań oraz go zresetować.{" "}
+            <span className="technologies">(HTML, CSS, JS)</span>
           </p>
         </div>
         <img src={require("../../../utils/learning.png")} alt="learning" />
