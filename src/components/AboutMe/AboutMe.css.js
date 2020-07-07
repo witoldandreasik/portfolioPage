@@ -16,6 +16,7 @@ const StyledAboutMe = styled.section`
     h2 {
       text-align: center;
       padding: 50px;
+      font-size: 2.25rem;
     }
     flex: 3;
     font-size: 1.5rem;

@@ -13,6 +13,9 @@ const StyledProjects = styled.section`
     padding-bottom: 50px;
   }
   @media (min-width: 320px) and (max-width: 479px) {
+    #projects {
+      font-size: 2rem;
+    }
     padding: 5%;
   }
 `;

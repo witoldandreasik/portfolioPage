@@ -5,7 +5,7 @@ import StyledSkills from "./Skills.css";
 function Skills() {
   return (
     <StyledSkills>
-      <h2 id="skills">Umiejętności </h2>
+      <h2 id="skills">Umiejętności</h2>
       <div className="hard-soft">
         <div className="hard">
           <h3>Twarde: </h3>

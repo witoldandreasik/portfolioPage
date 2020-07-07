@@ -53,7 +53,7 @@ const StyledSkills = styled.section`
         padding-left: 5px;
       }
       em {
-        // justify-content: flex-end;
+        /* justify-content: flex-end; */
         display: flex;
         padding: 7px 5px;
         text-align: center;
@@ -90,11 +90,8 @@ const StyledSkills = styled.section`
       padding: 0 auto;
       font-size: 1.7rem;
     }
-
-    .skills-hard-icons {
-    }
     .hard-soft {
-      // width: 100%;
+      width: 100%;
       flex-flow: row nowrap;
       font-size: 0.7rem;
     }
@@ -107,6 +104,7 @@ const StyledSkills = styled.section`
   }
   @media (min-width: 320px) and (max-width: 479px) {
     padding: 0;
+
     #skills {
       font-size: 2rem;
     }
