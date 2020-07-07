@@ -13,11 +13,13 @@ const StyledContact = styled.div`
       color: white;
       transform: translateY(0);
       transition: 0.2s linear;
+
       &:hover {
         transform: translateY(2px);
       }
     }
     em {
+      margin: 10px;
       font-size: 2.5rem;
       span {
         padding-left: 5px;

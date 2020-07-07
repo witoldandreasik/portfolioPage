@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 const StyledBurger = styled.div`
+  display: flex;
   width: 2rem;
   height: 2rem;
   position: fixed;
   top: 15px;
   right: 20px;
-  z-index: 2;
+  z-index: 3;
   display: none;
   cursor: pointer;
   margin: 0 auto;
@@ -17,7 +18,7 @@ const StyledBurger = styled.div`
     transition: 0.3s ease-in-out;
   }
   .close {
-    font-size: 3rem;
+    font-size: 2rem;
     color: ${({ theme }) => theme.colors.purple.normal};
     transition: 0.3s ease-in-out;
   }

@@ -1,20 +1,21 @@
 import React from "react";
 import Nav from "./Navbar.css";
 import Burger from "./Burger";
-
-function Navbar() {
+import RightNav from "./RightNav";
+function Navbar(open) {
   return (
-    <Nav>
-      <div className="logo">
-        <picture>
+    <>
+      <Nav>
+        <div className="logo">
           <img
             src={require("../../utils/logo.png")}
             alt="my logo in navigation bar"
           />
-        </picture>
-      </div>
-      <Burger />
-    </Nav>
+        </div>
+        <Burger />
+        {/* <RightNav open={open} /> */}
+      </Nav>
+    </>
   );
 }
 

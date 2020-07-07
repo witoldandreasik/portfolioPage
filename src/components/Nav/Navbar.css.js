@@ -11,6 +11,7 @@ const Nav = styled.nav`
   background-color: #fff;
   z-index: 2;
   overflow: hidden;
+
   .logo {
     display: flex;
     align-items: center;
@@ -18,15 +19,17 @@ const Nav = styled.nav`
   }
 
   @media (max-width: 319px) {
-    .logo picture img {
+    justify-content: center;
+    .logo img {
       max-width: 80%;
       max-height: 80%;
     }
   }
-
+  @media (max-width: 767px) {
+    /* display: none; */
+  }
   @media (min-width: 1921px) {
     height: 90px;
-
     font-size: 5.3rem;
   }
 `;

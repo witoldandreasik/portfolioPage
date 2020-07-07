@@ -55,6 +55,7 @@ const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     align-items: center;
     justify-content: center;
+    /* z-index: 2; */
     li {
       color: white;
     }
