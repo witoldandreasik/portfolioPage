@@ -3,10 +3,12 @@ import * as emailjs from "emailjs-com";
 import StyledContactForm from "./ContactForm.css";
 import { Form, Field } from "react-final-form";
 
+require("dotenv").config();
+
 function Contact() {
   function sendEmail() {
     emailjs
-      .sendForm("gmail", "portfolio", ".form", "user_TRhckqpwGuBtQNiCmIDMB")
+      .sendForm("gmail", "portfolio", ".form", process.env.REACT_APP_EMAILJS)
       .then(
         (result) => {
           console.log(result.text);
