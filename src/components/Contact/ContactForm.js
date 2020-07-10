@@ -2,7 +2,8 @@ import React from "react";
 import * as emailjs from "emailjs-com";
 import StyledContactForm from "./ContactForm.css";
 import { Form, Field } from "react-final-form";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 require("dotenv").config();
 
 function Contact() {
@@ -18,13 +19,30 @@ function Contact() {
         }
       );
   }
+  const notify = () =>
+    toast.dark("Email został wysłany", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
   const required = (value) => (value ? undefined : "To pole jest wymagane.");
   return (
     <StyledContactForm>
       <Form
-        onSubmit={sendEmail}
+        onSubmit={(() => sendEmail, notify)}
         render={({ handleSubmit, form, submitting, pristine, values }) => (
-          <form className="form" onSubmit={handleSubmit}>
+          <form
+            className="form"
+            onSubmit={async (event) => {
+              await handleSubmit(event);
+              form.reset();
+            }}
+          >
             <Field name="firstName">
               {({ input, meta }) => (
                 <div>
@@ -101,6 +119,7 @@ function Contact() {
           </form>
         )}
       />
+      <ToastContainer />
     </StyledContactForm>
   );
 }
